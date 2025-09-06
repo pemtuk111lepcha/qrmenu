@@ -1,0 +1,84 @@
+.home-top-navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem 1rem 3rem;
+    box-sizing: border-box;
+    background: #f7af7e;
+    color: #a1d99b;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    z-index: 100;
+    font-family:monospace;
+    box-shadow: 0 2px 4px 0 rgba(241, 219, 169, 0.2), 0 3px 10px 0 rgba(240, 223, 128, 0.19);
+    text-transform: uppercase;
+
+  }
+ 
+  .app-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: brown;
+    letter-spacing: 1px;
+    gap: 1rem;
+
+
+  }
+  
+  .home-navbar {
+    display: flex;
+    align-items: right;
+    gap: 5px;
+    font-family: monospace;
+    font-size: 1rem;
+    color: brown;
+    
+  }
+  
+  .home-navbar button {
+    padding: 0.7rem 1.5rem;
+    background: transparent;
+    color: brown;
+    border: none; /* <-- No border */
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    outline: none;
+    text-transform:uppercase;
+    
+  }
+  
+  .home-navbar button:hover,
+  .home-navbar button.active {
+    background: transparent;
+    color: #28a745;
+  }
+
+  .app-logo img{
+    height: 50%;
+    width: 50%;
+  }
+  
+  .logout-btn {
+    margin-left: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .logout-btn i {
+    color: brown;
+    font-size: 1.5rem;
+    transition: color 0.2s;
+  }
+  .logout-btn:hover i {
+    color: #28a745;
+  }
+/* No changes needed for navbar, footer is now fixed via inline style */
